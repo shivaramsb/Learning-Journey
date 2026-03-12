@@ -1,0 +1,20 @@
+C:\Users\babar\AppData\Roaming\Python\Python314\site-packages\langchain_core\_api\deprecation.py:25: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1.fields import FieldInfo as FieldInfoV1
+python-dotenv could not parse statement starting at line 1
+python-dotenv could not parse statement starting at line 2
+python-dotenv could not parse statement starting at line 3
+python-dotenv could not parse statement starting at line 4
+python-dotenv could not parse statement starting at line 5
+python-dotenv could not parse statement starting at line 6
+python-dotenv could not parse statement starting at line 7
+python-dotenv could not parse statement starting at line 10
+python-dotenv could not parse statement starting at line 16
+python-dotenv could not parse statement starting at line 18
+Traceback (most recent call last):
+  File "C:\Users\babar\Desktop\Learning-Journey\rag.py", line 25, in <module>
+    print("\U0001f4c4 Loading PDF...")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c4' in position 0: character maps to <undefined>

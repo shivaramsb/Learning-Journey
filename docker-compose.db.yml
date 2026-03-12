@@ -1,0 +1,14 @@
+services:
+  pgvector:
+    image: pgvector/pgvector:16
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ragdb
+    volumes:
+      - pgvector-data:/var/lib/postgresql/data
+
+volumes:
+  pgvector-data:
